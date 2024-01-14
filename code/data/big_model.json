@@ -1,0 +1,193 @@
+{
+  "predictions": [
+    {
+      "confidence": 99,
+      "height": 276,
+      "id": "vh_11-01-2024_18:05:03.299",
+      "label": "car",
+      "left_x": 0,
+      "top_y": 211,
+      "width": 71
+    },
+    {
+      "confidence": 98,
+      "height": 226,
+      "id": "vh_11-01-2024_18:05:03.299",
+      "label": "car",
+      "left_x": 293,
+      "top_y": 207,
+      "width": 321
+    },
+    {
+      "confidence": 98,
+      "height": 234,
+      "id": "vh_11-01-2024_18:05:03.299",
+      "label": "car",
+      "left_x": 340,
+      "top_y": 207,
+      "width": 374
+    },
+    {
+      "confidence": 98,
+      "height": 269,
+      "id": "vh_11-01-2024_18:05:03.299",
+      "label": "motorcycle",
+      "left_x": 551,
+      "top_y": 231,
+      "width": 587
+    },
+    {
+      "confidence": 97,
+      "height": 246,
+      "id": "vh_11-01-2024_18:05:03.299",
+      "label": "car",
+      "left_x": 384,
+      "top_y": 207,
+      "width": 437
+    },
+    {
+      "confidence": 95,
+      "height": 234,
+      "id": "vh_11-01-2024_18:05:03.299",
+      "label": "car",
+      "left_x": 436,
+      "top_y": 209,
+      "width": 470
+    },
+    {
+      "confidence": 94,
+      "height": 256,
+      "id": "vh_11-01-2024_18:05:03.299",
+      "label": "person",
+      "left_x": 551,
+      "top_y": 205,
+      "width": 577
+    },
+    {
+      "confidence": 89,
+      "height": 266,
+      "id": "vh_11-01-2024_18:05:03.299",
+      "label": "car",
+      "left_x": 628,
+      "top_y": 212,
+      "width": 640
+    },
+    {
+      "confidence": 77,
+      "height": 230,
+      "id": "vh_11-01-2024_18:05:03.299",
+      "label": "person",
+      "left_x": 380,
+      "top_y": 206,
+      "width": 396
+    },
+    {
+      "confidence": 76,
+      "height": 261,
+      "id": "vh_11-01-2024_18:05:03.299",
+      "label": "car",
+      "left_x": 566,
+      "top_y": 204,
+      "width": 640
+    },
+    {
+      "confidence": 72,
+      "height": 324,
+      "id": "vh_11-01-2024_18:05:03.299",
+      "label": "car",
+      "left_x": 56,
+      "top_y": 187,
+      "width": 279
+    },
+    {
+      "confidence": 69,
+      "height": 222,
+      "id": "vh_11-01-2024_18:05:03.299",
+      "label": "car",
+      "left_x": 277,
+      "top_y": 205,
+      "width": 292
+    },
+    {
+      "confidence": 67,
+      "height": 221,
+      "id": "vh_11-01-2024_18:05:03.299",
+      "label": "car",
+      "left_x": 0,
+      "top_y": 200,
+      "width": 34
+    },
+    {
+      "confidence": 65,
+      "height": 333,
+      "id": "vh_11-01-2024_18:05:03.299",
+      "label": "truck",
+      "left_x": 55,
+      "top_y": 187,
+      "width": 276
+    },
+    {
+      "confidence": 52,
+      "height": 214,
+      "id": "vh_11-01-2024_18:05:03.299",
+      "label": "person",
+      "left_x": 423,
+      "top_y": 190,
+      "width": 439
+    },
+    {
+      "confidence": 51,
+      "height": 210,
+      "id": "vh_11-01-2024_18:05:03.299",
+      "label": "person",
+      "left_x": 441,
+      "top_y": 193,
+      "width": 451
+    },
+    {
+      "confidence": 47,
+      "height": 215,
+      "id": "vh_11-01-2024_18:05:03.299",
+      "label": "person",
+      "left_x": 436,
+      "top_y": 192,
+      "width": 453
+    },
+    {
+      "confidence": 45,
+      "height": 220,
+      "id": "vh_11-01-2024_18:05:03.299",
+      "label": "car",
+      "left_x": 321,
+      "top_y": 208,
+      "width": 333
+    },
+    {
+      "confidence": 45,
+      "height": 215,
+      "id": "vh_11-01-2024_18:05:03.299",
+      "label": "car",
+      "left_x": 325,
+      "top_y": 204,
+      "width": 342
+    },
+    {
+      "confidence": 44,
+      "height": 236,
+      "id": "vh_11-01-2024_18:05:03.299",
+      "label": "person",
+      "left_x": 554,
+      "top_y": 205,
+      "width": 575
+    },
+    {
+      "confidence": 41,
+      "height": 224,
+      "id": "vh_11-01-2024_18:05:03.299",
+      "label": "person",
+      "left_x": 475,
+      "top_y": 208,
+      "width": 483
+    }
+  ]
+}
