@@ -1,0 +1,49 @@
+{
+  "predictions": [
+    {
+      "center_x": 35,
+      "center_y": 245,
+      "confidence": 88,
+      "height": 61,
+      "id": "vh_11-01-2024_18:05:03.299",
+      "label": "car",
+      "width": 71
+    },
+    {
+      "center_x": 413,
+      "center_y": 227,
+      "confidence": 88,
+      "height": 38,
+      "id": "vh_11-01-2024_18:05:03.299",
+      "label": "car",
+      "width": 49
+    },
+    {
+      "center_x": 308,
+      "center_y": 216,
+      "confidence": 75,
+      "height": 22,
+      "id": "vh_11-01-2024_18:05:03.299",
+      "label": "car",
+      "width": 25
+    },
+    {
+      "center_x": 452,
+      "center_y": 221,
+      "confidence": 72,
+      "height": 27,
+      "id": "vh_11-01-2024_18:05:03.299",
+      "label": "car",
+      "width": 33
+    },
+    {
+      "center_x": 357,
+      "center_y": 220,
+      "confidence": 71,
+      "height": 27,
+      "id": "vh_11-01-2024_18:05:03.299",
+      "label": "car",
+      "width": 34
+    }
+  ]
+}
