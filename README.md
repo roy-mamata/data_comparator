@@ -1,5 +1,5 @@
 # data_comparator
-Aggregates and compare data from two objection model and shows the difference
+Aggregates and compares data from two objection model and shows the difference
 1. Create a folder by name "build" in the code directory
 2. Run "cmake .." command inside the build directory
 3. Run "make" command
