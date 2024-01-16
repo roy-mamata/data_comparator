@@ -39,8 +39,8 @@ bool dataAggregatorHandler::dataAggregator_output()
         
         // Use erase-remove_if idiom with lambda function
         predictionsArray1.erase(
-            std::remove_if(predictionsArray1.begin(), predictionsArray1.end(),
-                [](const nlohmann::json& prediction) {
+            remove_if(predictionsArray1.begin(), predictionsArray1.end(),
+                [](const json& prediction) {
                     return prediction.value("confidence", 0) < CONFIDENCE_THRESHOLD;
                 }
             ),
