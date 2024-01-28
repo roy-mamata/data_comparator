@@ -3,7 +3,6 @@
 #include "opencv2/imgproc.hpp"
 #include <nlohmann/json.hpp>
 #include <iostream>
-#include <iomanip>
 #include <fstream>
 #include <string>
 
