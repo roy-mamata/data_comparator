@@ -2,7 +2,6 @@
 #include "inc/cc_device_data_aggregator_handler.hpp"
 #include <nlohmann/json.hpp>
 #include <iostream>
-#include <iomanip>
 #include <fstream>
 #include <unordered_set>
 
