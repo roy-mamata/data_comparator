@@ -54,8 +54,8 @@ bool dataAggregatorHandler::dataAggregator_output()
         
         // Use erase-remove_if idiom with lambda function
         predictionsArray2.erase(
-            std::remove_if(predictionsArray2.begin(), predictionsArray2.end(),
-                [](const nlohmann::json& prediction) {
+            remove_if(predictionsArray2.begin(), predictionsArray2.end(),
+                [](const json& prediction) {
                     return prediction.value("confidence", 0) < CONFIDENCE_THRESHOLD;
                 }
             ),
@@ -64,8 +64,8 @@ bool dataAggregatorHandler::dataAggregator_output()
     }
 
    // Print the updated JSON content
-    std::cout << jsonData1.dump(4) << std::endl;
-    std::cout << jsonData2.dump(4) << std::endl; 
+    cout << jsonData1.dump(4) << std::endl;
+    cout << jsonData2.dump(4) << std::endl; 
 
     // Set to store unique labels
     unordered_set<string> uniqueLabels1;
@@ -124,7 +124,7 @@ bool dataAggregatorHandler::dataAggregator_output()
 
      // Convert unordered set to array
     vector<string> diff_of_detection(differenceSet.size());
-    std::copy(differenceSet.begin(), differenceSet.end(), diff_of_detection.begin());
+    copy(differenceSet.begin(), differenceSet.end(), diff_of_detection.begin());
 
     string missing_detections;
 
@@ -148,7 +148,7 @@ bool dataAggregatorHandler::dataAggregator_output()
         missing_detections.pop_back();
     }
     // Before formatting
-    cout << "Intermediate Missing Detections: " << missing_detections << std::endl;
+    cout << "Intermediate Missing Detections: " << missing_detections << endl;
     cout<<endl;
 
     // formatting the json data
